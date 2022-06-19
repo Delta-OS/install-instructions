@@ -1,8 +1,4 @@
-deb http://archive.ubuntu.com/ubuntu jammy main
-deb http://archive.ubuntu.com/ubuntu jammy-security main
+deb http://archive.ubuntu.com/ubuntu jammy main universe restricted multiverse
+deb http://archive.ubuntu.com/ubuntu jammy-updates main universe restricted multiverse
+deb http://archive.ubuntu.com/ubuntu jammy-security main universe restricted multiverse
 
-deb http://archive.ubuntu.com/ubuntu jammy universe
-deb http://archive.ubuntu.com/ubuntu jammy-security universe
-
-deb http://archive.ubuntu.com/ubuntu jammy multiverse
-deb http://archive.ubuntu.com/ubuntu jammy-security multiverse
