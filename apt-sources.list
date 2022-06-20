@@ -1,4 +1,15 @@
-deb http://archive.ubuntu.com/ubuntu jammy main universe restricted multiverse
-deb http://archive.ubuntu.com/ubuntu jammy-updates main universe restricted multiverse
-deb http://archive.ubuntu.com/ubuntu jammy-security main universe restricted multiverse
+# Packages
+deb https://archive.ubuntu.com/ubuntu jammy main universe restricted multiverse
+#deb-src https://archive.ubuntu.com/ubuntu jammy main universe restricted multiverse
 
+# Updates
+deb https://archive.ubuntu.com/ubuntu jammy-updates main universe restricted multiverse
+#deb-src https://archive.ubuntu.com/ubuntu jammy-updates main universe restricted multiverse
+
+# Security Updates
+deb https://archive.ubuntu.com/ubuntu jammy-security main universe restricted multiverse
+#deb-src https://archive.ubuntu.com/ubuntu jammy-security main universe restricted multiverse
+
+# Delta OS sources
+deb https://somewhe.re/delta alpha main
+#deb-src https://somewhe.re/delta alpha main
